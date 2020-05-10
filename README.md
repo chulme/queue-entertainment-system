@@ -1,7 +1,7 @@
 # Queue Entertainment System
 This project involves 6 students from electrical and software engineering backgrounds, to develop an interactive, sensor-based system to entertain people standing in queues in a theme park. The proposed idea is an autonomous alien robot that can detect the user’s presence when they are in close proximity to it and upon pressing a button, entertain them with a game using audio, a monitor, LED indicators and two moving alien heads.
 
-This repository concerns the embedded C++ software on the MBED microcontroller unit.
+This repository concerns the embedded C++ software on the MBED microcontroller unit, which unless stated otherwise was written by myself.
 
 ## System Overview
 The system uses an MBED microcontroller, built into a university development unit. This acts as the main system driver a, and is featured in this repository, which connects to:
@@ -37,4 +37,4 @@ The code is split into the following modules:
 * gameLogic - the core methods used for the game mode.
 * mbedDevices - for controlling devices built into the microcontroller unit.
 * pcCommunication - for communicating and acting upon messages received over serial from the PC application.
-* I2C_FPGA - for communicating with the FPGA using I2C.
+* I2C_FPGA - for communicating with the FPGA using I2C (developed by a project team-member).
