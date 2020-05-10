@@ -3,7 +3,6 @@ This project involves 6 students from electrical and software engineering backgr
 
 # System Overview
 
-
 # Modes
 
 ## Game Mode
@@ -21,3 +20,9 @@ When launched in maintenance mode, the system waits for a serial input from the 
 From the maintenance window on the PC application, a user can:
 * Request the state or measured value from the distance sensor, colour sensor, LEDs or servo motors
 * Set the state of the LEDs or servo motors.
+
+## Implementation
+
+### Hardware
+
+### Software
