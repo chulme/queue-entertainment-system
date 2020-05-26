@@ -30,11 +30,10 @@ From the maintenance window on the PC application, a user can:
 * Set the state of the LEDs or servo motors.
 
 ## Code
-
 The code is split into the following modules:
-* main - includes main method, initialising and linking other modules.
-* modes - for determining the mode (determined by which version is launched on the PC application) and contains implementation for maintenance and game mode.
-* gameLogic - the core methods used for the game mode.
+* main - includes main method, where it determines and executes the correct mode.
+* gameMode - contains implementation for game mode.
+* debugMode - contains implementation for maintenance.
 * mbedDevices - for controlling devices built into the microcontroller unit.
 * pcCommunication - for communicating and acting upon messages received over serial from the PC application.
 * I2C_FPGA - for communicating with the FPGA using I2C (developed by a project team-member).
