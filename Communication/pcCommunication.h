@@ -1,5 +1,6 @@
 #ifndef pcCommunication_H
 #define pcCommunication_H
+
 #include <sstream>
 #include <string>
 #include "mbed.h"
