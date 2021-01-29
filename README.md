@@ -10,10 +10,8 @@ The system uses an MBED microcontroller, built into a university development uni
 * TSC34725 colour sensor.
 * VL6180x Time-of-flight distance sensor.
 
-## Modes
-### Game Mode
+## Gameplay
 
-#### Gameplay
 The LED array will flash in a sequence, then the user needs to remember and press the corresponding buttons in the correct order. If this is done successfully, the good alien rises and the next round begins - with each round increasing in difficulty as the sequence size increases. However, upon pressing an incorrect button, the bad alien rises and the use can see their final score on a leaderboard through the PC application.
 
 <img src="https://i.imgur.com/B5Hc7zH.png" width="525">
